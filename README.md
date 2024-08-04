@@ -1,2 +1,2 @@
-# lcthw
+# Programmation
 Notes for Learn C the Hard Way
