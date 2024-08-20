@@ -12,4 +12,7 @@ console.log(shoppingList);
 shoppingList.pop();
 console.log('pop()', shoppingList);
 
+shoppingList.sort()
+console.log(shoppingList);
+
 
