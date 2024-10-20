@@ -1,1 +1,0 @@
-Exercise Solutions for the book "Modern C for Absolute Beginners"
