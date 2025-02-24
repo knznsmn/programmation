@@ -9,11 +9,18 @@
 
 int main() {
 
+  #ifdef DEBUG
+  
+    printf("Debugging mode enabled.\n\n");
+  #endif 
+     
   printf("Prints a table of temperature in Fahrenheit\n");
 
   // Celsius = (Fahrenheit - 32) * 5/9
-  float fahrenheit = 0,
-      celsius = (fahrenheit - 32) * (5.0 / 9);
+  float fahrenheit = 0;
+  printf("Please enter the temperature in fahrenheit: ");
+  scanf("%f", &fahrenheit);
+  float celsius = (fahrenheit - 32) * (5.0 / 9);
 
   #ifdef DEBUG
     printf("\"celsius\" is: %f\n", celsius);
