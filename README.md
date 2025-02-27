@@ -1,6 +1,3 @@
 # Programmation
 
 Learning C.
-
-
-
