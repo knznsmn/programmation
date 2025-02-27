@@ -12,7 +12,7 @@ int main() {
     printf("Debugging mode enabled.\n\n");
   #endif 
      
-  printf("Prints a table of temperature in Fahrenheit\n");
+  printf("\nPrints a table of temperature in Fahrenheit\n");
 
   // Celsius = (Fahrenheit - 32) * 5/9
   // Fahrenheit = Celsius * (9/5) + 32
