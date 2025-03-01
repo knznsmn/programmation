@@ -4,9 +4,13 @@
 
 int main(int argc, char *argv[]) {
 
-  printf("argc:\t%d.\n", argc);
+  printf("\nNo. of argument:\t%d\n\n", argc);
+
+  char *argument;
+  argc > 1 ? argument = "arguments" : "argument";
+  printf("List of %s\n\n", argument);
   int i = 0;
   for (int i = 0; i < argc; i++) {
-    printf("argv[%d]:\t%s\n", i, argv[i]);
+    printf("\targv[%d]:\t%s\n", i, argv[i]);
   }
 }
