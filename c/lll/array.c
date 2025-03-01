@@ -6,9 +6,9 @@ int main() {
 
   int ids[MAX_IDS] = {0};
 
-  int i = 0;
+  int i;
   for (i = 0; i <= MAX_IDS; i++) {
-    printf("ids[%d] = %d\n", ids[i], ids[i]);
+    printf("ids[%d] = %d\n", i, ids[i]);
   }
 
 }
