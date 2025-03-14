@@ -1,3 +1,3 @@
 # Programmation
 
-Learning C.
+Learning C/C++.
