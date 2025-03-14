@@ -1,0 +1,9 @@
+{
+  "C_Cpp.files.exclude": {
+
+    "**/.vscode": true,
+    "**/.vs": true
+  },
+  "editor.fontFamily": "'JetBrainsMono', 'monospace', monospace",
+  "editor.tabSize": 2
+}
