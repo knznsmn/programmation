@@ -17,16 +17,13 @@ int main() {
   printf("Prints a table of temperature in Fahrenheit\n");
 
   // Celsius = (Fahrenheit - 32) * 5/9
-  float fahrenheit = 0;
-  printf("Please enter the temperature in fahrenheit: ");
-  scanf("%f", &fahrenheit);
-  float celsius = (fahrenheit - 32) * (5.0 / 9);
-
-  #ifdef DEBUG
-    printf("\"celsius\" is: %f\n", celsius);
-    printf("\"fahrenheit\" is: %f\n", fahrenheit);
-  #endif 
-
-  printf("%fF is %f Celsius.\n", fahrenheit, celsius);
-
+  // Fahrenheit = Celsius * (9/5) + 32
+  float celsius;
+  int i = 0;
+  printf("\n\tFahrenheit\tCelsius\n");
+  while (i < MAX_TEMP) {
+    float celsius = (i - 32) * (5.0 / 9);
+    printf("\t%4dF\t\t%4.2fC\n", i, celsius);
+    i += STEPS;
+  }
 }
