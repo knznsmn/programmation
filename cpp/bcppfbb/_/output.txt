@@ -1,0 +1,4 @@
+Enter your favorite number: 
+Wow! That's my favorite nummber!
+Really, 8888888 is my favorite number too!
+

@@ -2,10 +2,10 @@
 
 int main() {
 
-#ifndef ONLINE_JUDGE
-	freopen("input.txt", "r", stdin);
-	freopen("output.txt", "w", stdout);
-#endif
+  #ifndef JUDGE
+    freopen("../../_/input.txt", "r", stdin);
+    freopen("../../_/output.txt", "w", stdout);
+  #endif
 
 	std::string var = "Hello, world!";
 	std::cout << var;

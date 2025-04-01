@@ -2,11 +2,10 @@
 // a number from 1 to 100.
 #include <iostream>
 
-
 int main() {
-  #ifndef ONLINE_JUDGE
-    freopen("input.txt", "r", stdin);
-    freopen("output.txt", "w", stdout);
+  #ifndef JUDGE
+    freopen("../../_/input.txt", "r", stdin);
+    freopen("../../_/output.txt", "w", stdout);
   #endif
 
   std::cout << "Enter your favorite number: ";
