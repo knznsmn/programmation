@@ -1,10 +1,13 @@
 // Create a program that prompts a user to enter
 // a number from 1 to 100.
-
-
 #include <iostream>
 
+
 int main() {
+  #ifndef ONLINE_JUDGE
+    freopen("input.txt", "r", stdin);
+    freopen("output.txt", "w", stdout);
+  #endif
 
   std::cout << "Enter your favorite number: ";
   int number;
